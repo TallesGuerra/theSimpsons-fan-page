@@ -1,0 +1,207 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+
+body {
+    font-family: "Comic Neue", cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+
+      /*  background: #87CEEB; Sky blue background */
+     background: #1C5FA8; /* Sky blue background */
+
+    height: 100%;
+
+    position: relative;
+}
+
+
+* img{
+    /* Horizonta - Vertical - Blur radius - Spread Radius */
+    box-shadow: 0px 0px 21px 4px rgb(255, 255, 255);
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+
+    background-color: #FDD835;
+    padding: 10px;
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+header h1 {
+    margin: 20px 0 20px 0;
+    color: white;
+    font-size: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 20px;
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+    transition: 0.3s;
+}
+
+#home h2 {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#characters ul li {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin: 20px 50px;
+    list-style: none;
+}
+
+#characters img {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#characters p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#characters a {
+    text-decoration: none;
+    color: white;
+
+    cursor: pointer;
+}
+
+#characters a:hover {
+    color: #ffcc00;
+    transition: 0.3s;
+}
+
+
+main {
+    padding: 18px;
+    text-align: center;
+}
+
+section {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.imgHome {
+    width: 500px;
+    margin: 50px 50px 0 0;
+    
+    border-radius: 10px;  
+}
+
+
+
+#episodes p{
+    margin: 15px 0 30px 0;
+    
+    font-size: 18px;
+}
+
+
+.allEpisodes {
+    gap: 10px;
+
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.season {
+    border: dashed 3px #fff;
+   
+    border-radius: 15px;
+
+    margin: 10px 0;
+    
+    min-width: 350px;
+}
+
+.season h3 {
+    background-color: #ffcc00;
+    border-radius: 15px 15px 0 0;
+
+    
+    padding: 10px;
+    width: 100%;
+
+
+}
+
+
+
+iframe {
+    width: 100%;
+
+    border-radius: 0 0 15px 15px;
+    margin-bottom: -3px;
+
+
+}
+
+
+footer {
+  
+ width: 100%;
+
+    display: inline-flex;
+    justify-content: center;
+    text-align: end;
+    align-self:baseline ;
+
+    gap: 5px;
+
+   
+
+
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+
+}
