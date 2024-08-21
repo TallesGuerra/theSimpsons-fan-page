@@ -8,15 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
             <section id="home" class="active">
                 <h2>Welcome to The Simpsons Fan Page</h2>
                                 
-                <img class="imgHome" src="https://cdn.prod.www.spiegel.de/images/9d61a283-0001-0004-0000-000001498677_w1200_r1.778_fpx66.67_fpy50.jpg">
+                <img class="imgHome" src="../assets/img1">
 
-                <img class="imgHome" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxNWO7AGilg9BdMMipZWIZcGk-p03qGogS8w&s"> 
+                <img class="imgHome" src="../assets/img2"> 
 
-                <img class="imgHome" src="https://cdn.vox-cdn.com/thumbor/rQ1bBNYNox4NHDNnXUjpWT0IBhs=/0x0:1920x1080/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/47413330/the-simpsons-tv-series-cast-wallpaper-109911.0.0.jpeg">   
+                <img class="imgHome" src="../assets/img3">   
 
-                <img class="imgHome" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdfbW9X6WOql8QsvHlwteS7V-IRMpK2_BHA&s">  
+                <img class="imgHome" src="../assets/img4">  
 
-                <img class="imgHome" src="https://www.teahub.io/photos/full/155-1550218_watch-tv-los-simpson.jpg">    
+                <img class="imgHome" src="../assets/img5">    
         </section>
         `,
         characters: `
