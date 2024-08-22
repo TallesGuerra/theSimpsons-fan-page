@@ -4,34 +4,41 @@
     padding: 0;
     box-sizing: border-box;
 
-   
+
+}
+
+:root {
+    font-size: 62.5%;
 }
 
 body {
     font-family: "Comic Neue", cursive;
+    font-size: 1.6rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
     color: white;
 
-      /*  background: #87CEEB; Sky blue background */
-     background: #1C5FA8; /* Sky blue background */
+    /*  background: #87CEEB; Sky blue background */
+    background: #1C5FA8;
+    /* Sky blue background */
 
-     width: 100vw;
+    width: 100vw;
     height: 100vh;
+
 
     position: relative;
 }
 
 
-* img{
+* img {
     /* Horizonta - Vertical - Blur radius - Spread Radius */
-    box-shadow: 0px 0px 21px 4px rgb(255, 255, 255);
+    box-shadow: 0 0 2.1rem 0.4rem rgb(255, 255, 255);
 }
 
-.navAjuste{
+.navAjuste {
     position: sticky;
     top: 0;
-    padding: 10px;
+    padding: 1.0rem;
     text-align: center;
 
 }
@@ -41,14 +48,14 @@ header {
     width: 100vw;
     background-color: #FDD835;
 
-   
+
 
 }
 
 header h1 {
-    margin: 20px 0 20px 0;
+    margin: 2.0rem 0 2.0rem 0;
     color: white;
-    font-size: 60px;
+    font-size: 6.0rem;
 }
 
 nav ul {
@@ -57,12 +64,12 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
 
-    gap: 15px;
+    gap: 1.5rem;
 }
 
 
 nav ul li a {
-    font-size: 20px;
+    font-size: 2.0rem;
 
     text-decoration: none;
     color: white;
@@ -86,20 +93,20 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
 
-    margin: 20px 50px;
-    list-style: none;  
+    margin: 2.0rem 5.0rem;
+    list-style: none;
 }
 
 #characters img {
-    width: 150px;
-    height: 150px;
+    width: 15.0rem;
+    height: 15.0rem;
 
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 1.0rem;
 }
 
 #characters p {
-    font-size: 20px;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 
@@ -117,7 +124,7 @@ nav ul li a:hover {
 
 
 main {
-    padding: 18px;
+    padding: 1.8rem;
     text-align: center;
 }
 
@@ -129,65 +136,63 @@ section {
     display: block;
 }
 
-#home{
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   text-align: center;
-    gap: 50px;
+    text-align: center;
+    gap: 5.0rem;
 
     width: 100%;
-    padding: 10px;
+    padding: 1.0rem;
     margin: 0 auto;
 }
 
 .imgHome {
     width: auto;
-    /* margin: 50px 50px 0 0; */ 
-    
-    border-radius: 10px;  
+    /* margin: 50px 50px 0 0; */
+
+    border-radius: 1.0rem;
 }
 
 #content {
     width: 100%;
-  
-
     margin: 0 auto;
 }
 
-#episodes p{
-    margin: 15px 0 30px 0;
-    
-    font-size: 18px;
+#episodes p {
+    margin: 1.5rem 0 3.0rem 0;
+
+    font-size: 1.8rem;
 }
 
 
 .allEpisodes {
-    gap: 10px;
+    gap: 1.0rem;
 
     width: 100%;
-    
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .season {
-    border: dashed 3px #fff;
-   
-    border-radius: 15px;
+    border: dashed 0.3rem #fff;
 
-    margin: 10px 0;
-    
-    min-width: 350px;
+    border-radius: 1.5rem;
+
+    margin: 1.0rem 0;
+
+    min-width: 35.0rem;
 }
 
 .season h3 {
     background-color: #ffcc00;
-    border-radius: 15px 15px 0 0;
+    border-radius: 1.5rem 1.5rem 0 0;
 
-    
-    padding: 10px;
+
+    padding: 1.0rem;
     width: 100%;
 
 
@@ -198,28 +203,24 @@ section {
 iframe {
     width: 100%;
 
-    border-radius: 0 0 15px 15px;
-    margin-bottom: -3px;
+    border-radius: 0 0 1.5rem 1.5rem;
+    margin-bottom: -0.3rem;
 
 
 }
 
 
 footer {
-  
- width: 100%;
+
+    width: 100%;
 
     display: inline-flex;
     justify-content: center;
     text-align: end;
-    align-self:baseline ;
+    align-self: baseline;
 
-    gap: 5px;
-
-   
-
-
-    margin-bottom: 10px;
+    gap: 0.5rem;
+    margin-bottom: 1.0rem;
 }
 
 footer a {
