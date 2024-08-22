@@ -129,16 +129,28 @@ section {
     display: block;
 }
 
-.imgHome {
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   text-align: center;
+    gap: 50px;
+
     width: 100%;
-    margin: 50px 50px 0 0;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.imgHome {
+    width: auto;
+    /* margin: 50px 50px 0 0; */ 
     
     border-radius: 10px;  
 }
 
 #content {
     width: 100%;
-    height: 100%;
+  
 
     margin: 0 auto;
 }
