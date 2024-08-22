@@ -17,7 +17,7 @@ body {
      background: #1C5FA8; /* Sky blue background */
 
      width: 100vw;
-    height: 100%;
+    height: 100vh;
 
     position: relative;
 }
@@ -28,18 +28,18 @@ body {
     box-shadow: 0px 0px 21px 4px rgb(255, 255, 255);
 }
 
-
-header {
+.navAjuste{
     position: sticky;
     top: 0;
-
-    background-color: #FDD835;
     padding: 10px;
     text-align: center;
 
-    margin-bottom: 20px;
+}
 
-    border: solid 2px red;
+header {
+    position: relative;
+    width: 100vw;
+    background-color: #FDD835;
 
 }
 
@@ -54,11 +54,10 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+
+    gap: 15px;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
 
 nav ul li a {
     font-size: 20px;
@@ -86,7 +85,7 @@ nav ul li a:hover {
     align-items: center;
 
     margin: 20px 50px;
-    list-style: none;
+    list-style: none;  
 }
 
 #characters img {
@@ -129,13 +128,16 @@ section {
 }
 
 .imgHome {
-    width: 500px;
+    width: 350px;
     margin: 50px 50px 0 0;
     
     border-radius: 10px;  
 }
 
-
+#content {
+    width: 100%;
+    border: solid 1px green;
+}
 
 #episodes p{
     margin: 15px 0 30px 0;
