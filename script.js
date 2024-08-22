@@ -8,15 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
             <section id="home" class="active">
                 <h2>Welcome to The Simpsons Fan Page</h2>
                                 
-                <img class="imgHome" src="../assets/img1">
+                <img class="imgHome" src="./assets/img1.jpg">
 
-                <img class="imgHome" src="../assets/img2"> 
+                <img class="imgHome" src="./assets/img2.jpg"> 
 
-                <img class="imgHome" src="../assets/img3">   
+                <img class="imgHome" src="./assets/img3.jpg">   
 
-                <img class="imgHome" src="../assets/img4">  
+                <img class="imgHome" src="/assets/img4.jpg">  
 
-                <img class="imgHome" src="../assets/img5">    
+                <img class="imgHome" src="/assets/img5.jpg">    
         </section>
         `,
         characters: `
