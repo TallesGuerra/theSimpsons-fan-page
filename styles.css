@@ -166,15 +166,26 @@ section {
     font-size: 1.8rem;
 }
 
+#episodes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .allEpisodes {
     gap: 1.0rem;
-
     width: 100%;
 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+   
 }
 
 .season {
