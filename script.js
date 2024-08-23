@@ -24,39 +24,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h1>Characters</h1>
                 <ul>
                    <li>
+                        <a href="https://pt.wikipedia.org/wiki/Homer_Simpson" target="_blank">                        
                         <img src="./assets/homer.png">
-                        <a href="https://pt.wikipedia.org/wiki/Homer_Simpson" target="_blank">
                             <p>Homer Simpson </p>
                         </a>
                    </li>
                     
                     
                     <li>
-                        <img src="./assets/marge.png">
-                        <a href="https://pt.wikipedia.org/wiki/Marge_Simpson" target="_blank">
+                    <a href="https://pt.wikipedia.org/wiki/Marge_Simpson" target="_blank">
+                    <img src="./assets/marge.png">
                             <p> Marge Simpson </p>
                         </a>
                    </li>
                    
                    
                     <li>
-                        <img src="./assets/bart.png">
-                        <a href="https://pt.wikipedia.org/wiki/Bart_Simpson" target="_blank">
+                    <a href="https://pt.wikipedia.org/wiki/Bart_Simpson" target="_blank">
+                    <img src="./assets/bart.png">
                             <p>  Bart Simpson </p>
                         </a>
                    </li>
                    
                     <li>
-                        <img src="../assets/lisa.png">
                         <a href="https://pt.wikipedia.org/wiki/Lisa_Simpson" target="_blank">
-                             <p> Lisa Simpson </p>
+                        <img src="../assets/lisa.png">
+                        <p> Lisa Simpson </p>
                         </a>
                     </li>
                     
                     <li>
+                        <a href="https://pt.wikipedia.org/wiki/Maggie_Simpson" target="_blank">
                         <img src="../assets/maggie.png">
-                         <a href="https://pt.wikipedia.org/wiki/Maggie_Simpson" target="_blank">
-                             <p>  Maggie Simpson </p>
+                        <p>  Maggie Simpson </p>
                         </a>
                    </li>
                 </ul>
