@@ -17,17 +17,12 @@ body {
 
     /*  background: #87CEEB; Sky blue background */
     background: #1C5FA8;
-    /* Sky blue background */
-
-   
+    
     height: 100%;
     width: 100%;   
-    position: absolute;
-
-  
+    position: absolute; 
     
 }
-
 
 * img {
     /* Horizonta - Vertical - Blur radius - Spread Radius */
@@ -40,21 +35,15 @@ body {
     right: 0;
     
     text-align: center;
-
-   
-
-
 }
 
 header {
     position: relative;
     min-width: 360px;
     background-color: #FDD835;
-   /*  padding: 1.0rem; */
+  
     padding-top: 10px;
    
-   
-    
 }
 
 header h1 {
@@ -68,10 +57,8 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
 
-    gap: 1.5rem;
-   
+    gap: 1.5rem;   
 }
-
 
 nav ul li a {
     font-size: 2.0rem;
@@ -127,7 +114,6 @@ footer a:hover {
     color: #ffcc00;
     transition: 0.3s;
 }
-
 
 main {
     padding: 1.8rem;
@@ -196,11 +182,9 @@ section {
 
 .season {
     border: dashed 0.3rem #fff;
-
     border-radius: 1.5rem;
 
     margin: 1.0rem 0;
-
     min-width: 35.0rem;
 }
 
@@ -208,24 +192,16 @@ section {
     background-color: #ffcc00;
     border-radius: 1.5rem 1.5rem 0 0;
 
-
     padding: 1.0rem;
     width: 100%;
-
-
 }
-
-
 
 iframe {
     width: 100%;
 
     border-radius: 0 0 1.5rem 1.5rem;
     margin-bottom: -0.3rem;
-
-
 }
-
 
 footer {
     width: 100%;
