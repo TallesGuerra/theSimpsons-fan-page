@@ -1,10 +1,7 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
 :root {
@@ -22,11 +19,13 @@ body {
     background: #1C5FA8;
     /* Sky blue background */
 
-    width: 100vw;
-    height: 100vh;
+   
+    height: 100%;
+    width: 100%;   
+    position: absolute;
 
-
-    position: relative;
+  
+    
 }
 
 
@@ -38,33 +37,39 @@ body {
 .navAjuste {
     position: sticky;
     top: 0;
-    padding: 1.0rem;
+    right: 0;
+    
     text-align: center;
+
+   
+
 
 }
 
 header {
     position: relative;
-    width: 100vw;
+    min-width: 360px;
     background-color: #FDD835;
-
-
-
+   /*  padding: 1.0rem; */
+    padding-top: 10px;
+   
+   
+    
 }
 
 header h1 {
-    margin: 2.0rem 0 2.0rem 0;
+   margin-bottom: 1.0rem;
     color: white;
     font-size: 6.0rem;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
     display: flex;
     justify-content: space-evenly;
 
     gap: 1.5rem;
+   
 }
 
 
