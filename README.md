@@ -10,8 +10,9 @@
 
 # 🔨 Funcionalidades do projeto
 
-`Funcionalidade 1`: Utilização de hiperlinks na página de Characters e Episodes. 
-`Funcionalidade 2`: Utilização do picture and picture. 
+`Funcionalidade 1`: Utilização de hiperlinks na página de Characters e Episodes. <br>
+`Funcionalidade 2`: Utilização do picture and picture.  <br>
+`Funcionalidade 3`: Responsividade. 
 
 
 <br/>
