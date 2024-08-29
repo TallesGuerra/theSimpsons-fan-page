@@ -1,13 +1,11 @@
 <h1 align="center"> The Simpsons - Fan Page </h1>
 
-<p align="center"><img src="./assets/preview.png"/></p>
+
 
 <p align="center">Este projeto foi em uma serie de projetos do mês de Julho para prática e aperfeiçoamento do Javascript, onde criei uma página dedicada a série The Simpsons.</p>
 
-<p align="center">
-  <img alt="preview" src="/img/preview.png" width="100%">
-</p>
 
+<p align="center"><img src="./assets/preview.png"/></p>
 <br/>
 
 # 🔨 Funcionalidades do projeto
